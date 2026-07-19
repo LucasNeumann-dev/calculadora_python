@@ -1,0 +1,48 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# === Sistema macOS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# === Caches do Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Ambientes Virtuais (Virtual Environments) ===
+.venv/
+venv/
+ENV/
+env/
+target/
+
+# === Distribuição e Pacotes ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === IDEs e Editores ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
