@@ -1,4 +1,4 @@
-from ctypes import alignment
+from PySide6.QtCore import Qt
 
 from PySide6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout)
 
@@ -23,4 +23,4 @@ class MainWindow(QMainWindow):
 
     def addWidgetToVLayout(self, widget: QWidget):
         self.vertical_layout.addWidget(widget)
-        self.adjustFixedSize()
+        # self.adjustFixedSize()
